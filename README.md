@@ -33,3 +33,4 @@ This project not only showcases Megha’s growing skills as a web designer and d
 Overall, this E-Learning Platform is more than a static webpage — it’s a thoughtful, functional, and inviting learning space. It stands as a strong personal project for portfolios, perfect for showcasing creativity, technical ability, and passion for education.
 
 OUTPUT:-
+![Image](https://github.com/user-attachments/assets/798c1a90-5c13-4a3e-af18-442b06f6f4d9)
