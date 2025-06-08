@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(240, 244, 248);
+  color: rgb(34, 34, 34);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header {
+  background: rgb(34, 47, 74);
+  color: white;
+  padding: 16px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28.8px;
+  font-weight: 700;
+  color: rgb(0, 168, 255);
+}
+
+nav a {
+  color: rgb(221, 221, 221);
+  margin-left: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(0, 168, 255);
+}
+
+.hero {
+  text-align: center;
+  padding: 64px 16px;
+  background: linear-gradient(135deg, rgb(0, 168, 255), rgb(0, 97, 200));
+  color: white;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.hero button {
+  background: white;
+  color: rgb(0, 97, 200);
+  border: none;
+  padding: 12px 32px;
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: rgb(0, 75, 138);
+  color: white;
+}
+
+.courses {
+  padding: 48px 16px;
+  background: white;
+  text-align: center;
+}
+
+.courses h2 {
+  font-size: 32px;
+  margin-bottom: 32px;
+  color: rgb(34, 47, 74);
+}
+
+.course-list {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.course {
+  background: rgb(249, 250, 252);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 280px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.course:hover {
+  transform: translateY(-6px);
+}
+
+.course img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.course h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: rgb(34, 47, 74);
+}
+
+.course p {
+  font-size: 16px;
+  color: rgb(85, 85, 85);
+}
+
+footer {
+  background: rgb(34, 47, 74);
+  color: rgb(221, 221, 221);
+  padding: 16px 0;
+  text-align: center;
+  font-size: 14.4px;
+}
